@@ -1,0 +1,217 @@
+@font-face {
+  font-family: "myfont";
+  src: url(../clova-all/고딕_아니고_고딩/나눔손글씨\ 고딕\ 아니고\ 고딩.ttf);
+}
+
+.top-back{
+    height: 300px;
+    background: linear-gradient(to bottom, #4A97DC, #4D66C4);
+}
+
+.top-main{
+    display: flex;
+    width : 80%;
+    min-width: 600px;
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 1200px;
+}
+
+.content{
+    display: flex;
+    width : 60%;
+    flex-direction: column;
+    color: white;
+    padding-top: 30px;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+
+.content span{
+    font-size: 10px;
+}
+
+.image-box{
+    width:40%;
+    box-sizing: border-box;
+    padding-left:100px;
+}
+
+.top-main img{
+    width: 200px;
+    height: 250px;
+    margin-top : 50px;
+}
+
+.top button{
+    font-size: 10px;
+    width: 80px;
+    height: 25px;
+    margin-top: 10px;
+    color : white;
+    background-color: #444445;
+    border-radius: 5px;
+    border: none;
+}
+
+.top-mid{
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.top-mid-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+.top-bottom{
+    width: 100%;
+    height: 200px;
+    background-color: #4E61C0;
+}
+
+.top-bottom-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 30px
+}
+
+.top-bottom-content > span{
+    color: white;
+}
+
+.garo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.garo > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+
+.garo i{
+    display:flex;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    color:#4E61C0
+}
+
+.garo h5{
+    margin: 0px;
+    color: white;
+}
+
+.garo span{
+    font-size: 7px;
+    color: white;
+}
+
+.bottom{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.bottom-title{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+    padding-top: 30px;
+}
+
+.bottom-menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-menu table{
+    width: 800px;
+    transition: all 1s;
+}
+
+.bottom-menu td{
+    width: 50%;
+    height: 240px;
+    background-position: center;
+    background-size: 1000px;
+    box-sizing: border-box;
+    color: white;
+    transition: all 1s;
+}
+
+table h3{
+    font-size: 15px;
+}
+
+table span{
+    font-size: 10px;
+}
+
+.img1:hover{
+    border : 20px solid white;
+}
+.img2:hover{
+    border : 20px solid white;
+}
+.img3:hover{
+    border : 20px solid white;
+}
+.img4:hover{
+    border : 20px solid white;
+}
+
+.menu-text{
+    width: 300px;
+    margin: auto;
+    padding-bottom: 90px;
+}
+
+@media screen and (max-width:800px){
+    .top-main{
+        width:100%;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        min-width:0px;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left:0px;
+    }
+
+    .image-box{
+        padding-left:0px;
+    }
+
+    .top-back{
+        height:455px;
+    }
+}
